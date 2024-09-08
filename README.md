@@ -30,37 +30,10 @@ php artisan db:seed
 
 Configuracion XAMPP (Torres)
 
-CAmbia la ruta por defecto a la ruta que escogiste para el proyecto, esto no abrira directamente la pagina de inicio, tendras que selccionar "Public" en el directorio
+Cambia la ruta por defecto a la ruta que escogiste para el proyecto, esto no abrira directamente la pagina de inicio, tendras que selccionar "Public" en el directorio
 
 DocumentRoot "C:\Programacion\GearUp-TBI" 
 <Directory "C:\Programacion\GearUp-TBI">
-    #
-    # Possible values for the Options directive are "None", "All",
-    # or any combination of:
-    #   Indexes Includes FollowSymLinks SymLinksifOwnerMatch ExecCGI MultiViews
-    #
-    # Note that "MultiViews" must be named *explicitly* --- "Options All"
-    # doesn't give it to you.
-    #
-    # The Options directive is both complicated and important.  Please see
-    # http://httpd.apache.org/docs/2.4/mod/core.html#options
-    # for more information.
-    #
-    Options Indexes FollowSymLinks Includes ExecCGI
-
-    #
-    # AllowOverride controls what directives may be placed in .htaccess files.
-    # It can be "All", "None", or any combination of the keywords:
-    #   AllowOverride FileInfo AuthConfig Limit
-    #
-    AllowOverride All
-
-    #
-    # Controls who can get stuff from this server.
-    #
-    Require all granted
-</Directory>
-
 
 Las cuentas se inician segun el Email de las personas registradas como admin, solo hay 3 por defecto
 
